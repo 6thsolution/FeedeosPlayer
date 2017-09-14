@@ -2,7 +2,7 @@
 //  FeedeosPlayerUITests.swift
 //  FeedeosPlayerUITests
 //
-//  Created by papyrus on 9/14/17.
+//  Created by Mehdi Sohrabi (mehdok@gmail.com) on 9/14/17.
 //  Copyright © 2017 SixthSolution. All rights reserved.
 //
 

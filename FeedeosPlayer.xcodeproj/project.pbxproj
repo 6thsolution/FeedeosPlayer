@@ -14,6 +14,8 @@
 		8260EFDF1F6A380100C010F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8260EFDD1F6A380100C010F2 /* LaunchScreen.storyboard */; };
 		8260EFEA1F6A380100C010F2 /* FeedeosPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260EFE91F6A380100C010F2 /* FeedeosPlayerTests.swift */; };
 		8260EFF51F6A380100C010F2 /* FeedeosPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260EFF41F6A380100C010F2 /* FeedeosPlayerUITests.swift */; };
+		8260F0031F6A381F00C010F2 /* feedeos.html in Resources */ = {isa = PBXBuildFile; fileRef = 8260F0021F6A381F00C010F2 /* feedeos.html */; };
+		8260F0051F6A38DE00C010F2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8260F0041F6A38DE00C010F2 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8260EFF01F6A380100C010F2 /* FeedeosPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedeosPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8260EFF41F6A380100C010F2 /* FeedeosPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedeosPlayerUITests.swift; sourceTree = "<group>"; };
 		8260EFF61F6A380100C010F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8260F0021F6A381F00C010F2 /* feedeos.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = feedeos.html; sourceTree = "<group>"; };
+		8260F0041F6A38DE00C010F2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		8260EFD31F6A380100C010F2 /* FeedeosPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				8260F0021F6A381F00C010F2 /* feedeos.html */,
 				8260EFD41F6A380100C010F2 /* AppDelegate.swift */,
 				8260EFD61F6A380100C010F2 /* ViewController.swift */,
 				8260EFD81F6A380100C010F2 /* Main.storyboard */,
 				8260EFDB1F6A380100C010F2 /* Assets.xcassets */,
 				8260EFDD1F6A380100C010F2 /* LaunchScreen.storyboard */,
 				8260EFE01F6A380100C010F2 /* Info.plist */,
+				8260F0041F6A38DE00C010F2 /* Player.swift */,
 			);
 			path = FeedeosPlayer;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 				8260EFDF1F6A380100C010F2 /* LaunchScreen.storyboard in Resources */,
 				8260EFDC1F6A380100C010F2 /* Assets.xcassets in Resources */,
 				8260EFDA1F6A380100C010F2 /* Main.storyboard in Resources */,
+				8260F0031F6A381F00C010F2 /* feedeos.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8260EFD71F6A380100C010F2 /* ViewController.swift in Sources */,
+				8260F0051F6A38DE00C010F2 /* Player.swift in Sources */,
 				8260EFD51F6A380100C010F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

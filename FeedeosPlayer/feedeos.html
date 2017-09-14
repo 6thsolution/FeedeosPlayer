@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Home - Feedeos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="/css/square/square.css">
+            <link rel="stylesheet" href="/css/square/blue.css">
+                <link rel="stylesheet" href="/css/all.css">
+                    <style>
+                        body { padding-top: 60px; }
+                        .app { display: flex; min-height: 100vh; flex-direction: column; }
+                        .app-content { flex: 1; }
+                        .app-footer { padding-bottom: 1em; }
+                        .zf-green, h2 a { color: #68b604; }
+                        </style>
+                    </head>
+    <body class="app">
+        <header class="app-header">
+        </header>
+        
+        <div class="app-content">
+            <main class="container">
+                
+                <style>
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                
+                html,
+                body {
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                    </style>
+                
+                
+                <div id="videoContainer" class="vidcontainer">
+                    
+                </div>
+                <button id="left">Left</button>
+                <button id="right">Right</button>
+            </main>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="/js/icheck.min.js"></script>
+        
+        <script src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
+        
+        <script>
+            var videos=['4cTZUqchUPo','VIMBg0BwwF4','ROPxZxOoWuk','yqxwSwPbG6Q','9TQl31yWrIc','ly0dBk7yqYU','Z22AEttsvyA','tgH17qbTV94','FI181sONL18','yXBVflpolL4','ixucGSOUdXs','vV88qR2Nzyg','5faIxPMa1OU','u2ct07P9deU','WKwfbrgUmAI','Gf77MyIhh7A','WfWjdxzK-0M','RkS6-8_QUd4','NQb0efIQRCE','2rFXR3_DeMU','zpnHXZ8Xn4E','NZjq02GI7U8','zYWVO2wfIr0','IgqOJ4q4Wwo','-w72pB7E2vk','HVNTiNixxG8','4oW2s_hV3VQ','vxMLpLQyYCQ','MNpZlTw2s5s','xZn3NjKGWnw','Awlh0Vevbdk','QFwBK2WQ6i4','NrlDCYDnXAA','kABEfsCFWPY','u49y9gnYark','QeX2XmDQyyQ','z0O9LK10TIo','KsmXx3hB968','ahuL_VOgVZI','sAoJI25oUMo','FBHpRhrHae0','cudNQLfNR7w','NQG_zDczLwQ','A-GAe_zOIrQ','jDLJRRZHn5w','V1BrmmuwJjY','NUkApGNbBWY','H8T9JxTYwIQ','x9tLvJTgYyY','ZlL_3npqcCg','-7FVRX-1d90','ZjjYQCdoCwk','COO2YKhGHO8','F6wn3Cw-o0g','eaPtofaP41E','-6ECA_ezsyI','JB8py6jGCQg','hgoEaO0qLCM','dP7FC5-IG2g','SEEDAjvGyxo','BLBPXYQVses','FV2SQYUms9I','xH1wrvpCYgo','Z9yOCVt5bis','kPnoVBJPxTw','0LR4y40Ci0A','DiNUDEImwBo','gEsT9v1QbqE','51IPo92i-2s','PQl9eMlOwoY','k9OGeF5i54E','MR9-HPDtSTU','3syNaXG0vsU','384KOSqRh0g','LhV_JHE6n2M','2fA4IhU8qms','UPN0OJFxldU','hYffAMZG0Qg','FPXh_H1MxJQ','N0p4vn0uWZ4','MUxL2iOm8UA','pmzeK6oAtkk','amfK0N78M0M','w64-sLNp3XQ','8Bet8jQL3lI','i-FzLnNlvMM','MNLNrBlXUL4','hgI2gwV6X98','pIxFuENqDHo','D0pC6WN6ZH0','lzSLtMp58XQ','rxnYatzNjzo','Z_TVNhqHu4M','FMJXwz_j4mY','Hsj399FyWtQ','EazlsdmCZv8','gAYfKvl6P-8','0xtQLW7PPCw','lbrvAoxV7Ao','9RXHohf1Bfc','vgdebnIn34M','bjAXo-8ppVw','Dk502ZJQisI','4NcVK8E7jjE','6_X3hzQtzGE','gqxVAB3JS4s','OAxx4SXac2g','BTVN0bZ2XdY','TTnSjsKg_CM','5EzO087oBIw','nWMR9QUi6Pw','OsuBFUPY5U4','2JZ1rGENlDM','jG9uOYx7g30','T_ojB_vm6fs','W9ud3RtlMUA','M2ySIX9xYP8','cJzCOEh7dPA','_hS72RGgO70','czMkkgAc7_w','mDHUZRKQEEs','wlKop4BV6gQ','S-btPoff7Sw','-aTZHQ7Chg4','GoHCkFa2uFY','DajCYrBS9Ds','47F30e2xf6g','MGp5KY4DX_c','F4uZD1nr3A8','p9KmNTSYU0g','6F5sjQqAPVA','PX9MPviPp9c','9Hq1LY9jsFg','dCq8CcH810k','MqqaxncA7Sw','cLMxpZw_3Fg','yMsFDkOfNmE','0A3UNJer56U','bewtja4QwCk','VOPIpPTHptU','501gQfgCo8g','QUw2-P8y8CY','8QRyQQAaus8','jAu1ZsTCA64','Sj0jZ-De0bE','KmRP11dPx4w','bxT_Wz03BH4','oB2FcdURRMU','ZJS7QX8xi-U','Kthr4FIsjXM','UoQlo3Sib6s','UaapITrXy_s','7IXAZKhaqOc','AVt_keyYzrI','IPYGrXNH55Q','1m5HQpcYYZ0','vS-K-9GmFNo','dQI3uKUUuvY','AO76SKNzmxs','h2Y-dx6HGZY','A_Q3TaDtR84','eG1VnwQH45I','oS01LBtxRdw','GmM-AdjFeEk','lp8bkyIq_kc','LS6Fi7Sbb9g','6LJqaPoiE3c','K5z2KJVDOk4','c2TwDHCcC-k','MEzdoSRRyDU','geWlX3WpuDI','IjjeoyKyOAc','rwFbYQVJs1k','q34PH045N1A','e1CEdPAnj44','h_WnPNwCDAU','zDr5_Q9oI3w','827YVmYOKpg','vs3sVrm_W4o','0xcQbI_7sVc','TmwkUr6HlJM','P9-cofXClS4','7gmACuGNoXY','MkjfPaHCuqM','mc1jL87r7uc','x8CCWzsLvGg','e4-UXms-vJ4','lg5P35ut1HI','5BlPvNHXJxg','NM6UFwpaW-0','eiaPEMQ2p0I','uwReQ7RjemM','7cisJXRHUJM','aNEAzSnKChE','CgkGL3H9isQ','Gp3vg6c_LAQ','i7Q1q4od9eY','meH-P6ZFA7k','BTZOE4-U56Y','kUu46J_OHQ4'];
+            // 2. This code loads the IFrame Player API code asynchronously.
+            var divs=[];
+            var counter = 0;
+            
+            function loadVideo(id) {
+                
+                counter++;
+                var idcnt = 'dv-'+counter;
+                //var d = $('<div id="dv-'+idcnt+'"></div>');
+                var d = document.createElement('div');
+                $(d).css('left', '-210px');
+                //    $(d).css('position', 'relative');
+                var c = document.createElement('div');
+                $(c).append(d);
+                
+                $('#videoContainer').append(c);
+                
+                player = new YT.Player(d, {
+                                       @@@,
+                                       videoId: id,
+                                       playsinline: 1,
+                                       playerVars: {'playsinline':'1', 'theme':'light','color':'white','modestbranding':1,'rel':0},
+                                       events: {
+                                       'onReady': onPlayerReady,
+                                       'onStateChange': onPlayerStateChange
+                                       }
+                                       });
+                                       
+                                       $(c).hide();
+                                       divs.push([c, player]);
+            }
+        function onPlayerReady(event) {
+            event.target.playVideo();
+        }
+        
+        
+        setInterval(function(){
+                    $.each(divs, function(k, v) {
+                           if(v[1].getPlayerState() == YT.PlayerState.PLAYING && v[1].getCurrentTime() >= 8) {
+                           v[1].seekTo(3, true);
+                           }
+                           })
+                    }, 100);
+                    
+                    
+                    var done = false;
+                    function onPlayerStateChange(event) {
+                        console.log(event);
+                        if (event.data == YT.PlayerState.PLAYING
+                            && event.target.getCurrentTime() < 3) {
+                            
+                            event.target.seekTo(3, true);
+                            event.target.pauseVideo();
+                            done = true;
+                            
+                            var lr = jQuery.Event( "loopReady" );
+                            lr.player = event.target;
+                            
+                            $( document ).trigger( lr );
+                        }
+                            
+                    }
+        
+        function stopVideo(e) {
+            e.target.pauseVideo();
+        }
+        
+        
+        var currentVid = 0;
+        
+        
+        
+            </script>
+        
+        <script>
+            
+            function onYouTubeIframeAPIReady() {
+                for(i=0; i<6;i++) {
+                    
+                    loadVideo(videos[i]);
+                }
+                
+                $(divs[0][0]).show();
+            }
+        
+        $(function() {
+          $(document).on('loopReady', function(e){
+                         console.log(e.player);
+                         if(e.player == divs[0][1]) {
+                         divs[0][1].playVideo();
+                         }
+                         });
+          
+          $('#right').click(function(e){
+                            if(currentVid + 1 > 5) {
+                            e.stopPropagation();
+                            return;
+                            }
+                            next = currentVid + 1;
+                            $(divs[currentVid][0]).hide();
+                            divs[currentVid][1].pauseVideo();
+                            
+                            $(divs[next][0]).show();
+                            divs[next][1].playVideo();
+                            
+                            currentVid = next;
+                            });
+          
+          
+          $('#left').click(function(e){
+                           if(currentVid - 1 < 0) {
+                           e.stopPropagation();
+                           return;
+                           }
+                           next = currentVid - 1;
+                           
+                           $(divs[currentVid][0]).hide();
+                           divs[currentVid][1].pauseVideo();
+                           
+                           $(divs[next][0]).show();
+                           divs[next][1].playVideo();
+                           
+                           currentVid = next;
+                           });
+          
+          })
+          
+          
+          
+          
+            </script>
+        
+        
+        
+        
+        
+    </body>
+</html>
